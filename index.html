@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first website!</title>
-</head>
-<body>
-    Helo there
-</body>
+  </head>
+
+  <body>
+    <!---adding a new page using href tag-->
+
+    <a href="secondpage.html">Click Here to another page!</a>
+
+    <!---Titles and pharagraphis-->
+
+    <h1>Title 1</h1>
+    <h2>Title 2</h2>
+    <h3>Title 3</h3>
+    <h4>Title 4</h4>
+
+    <p>
+      <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit.
+      Magnam quidem libero iure in sequi tempora ex id vel? Debitis, nemo sed.
+      Eligendi optio vitae nam officiis quae ad <a href="">labore animi</a>!
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi nihil
+      quae dolores autem ratione <sub>quo voluptatem</sub> possimus perspiciatis
+      adipisci assumenda aliquam est, sapiente quam quibusdam et ea magni eaque
+      fuga.
+    </p>
+
+    <!---ordered and unordered lists-->
+
+    <ul>
+      <li>apple</li>
+      <ul>
+        <!---put image tag-->
+
+        <li>apple 1</li>
+        <img
+          src="https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg"
+          alt="apple 1"
+          width="50"
+          height="60"
+        />
+        <li>apple 2</li>
+        <img
+          src="https://healthiersteps.com/wp-content/uploads/2021/12/green-apple-benefits.jpeg"
+          alt="apple 1"
+          width="50"
+          height="70"
+        />
+      </ul>
+      <li>orange</li>
+      <li>limon</li>
+    </ul>
+
+    <!---another kind of lists-->
+
+    <ol>
+      <li>item one</li>
+      <li>
+        item two
+        <ol>
+          <li>
+            sublist item one
+            <ol>
+              <li>
+                a
+                <ol>
+                  <li>
+                    a
+                    <ol>
+                      <li>item 1</li>
+                      <li>item 2</li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li>item 7</li>
+                    </ol>
+                  </li>
+                  <li>b</li>
+                </ol>
+              </li>
+              <li></li>
+            </ol>
+          </li>
+          <li>sublist item two</li>
+        </ol>
+      </li>
+      <li>item three</li>
+    </ol>
+
+    <!--create forms and inputs attributes-->
+
+    <form method="post">
+      <input type="text" placeholder="Name" name="firstname" /><br />
+      <input
+        type="password"
+        placeholder="Password"
+        minlength="5"
+        name="password"
+      /><br />
+      <input type="email" placeholder="Email" name="email" /><br />
+      <input type="date" name="date" /><br />
+      Gender: <br />
+      <input type="radio" name="gender" value="male" />Male<br />
+      <input type="radio" name="gender" value="female" />Female<br />
+      <input type="radio" name="gender" value="other" />Other<br />
+      Pets: <br />
+      <input type="checkbox" name="cat" />Cat <br />
+      <input type="checkbox" name="dog" />Dog <br />
+      Cars: <br />
+      <select name="cars" id="">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="ferrari">Ferrari</option></select
+      ><br />
+      <input type="submit" value="Register!" />
+      <input type="reset" value="Reset" />
+    </form>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+
+
+
+    ?firstname=fake
+    &password=12345
+    &email=fake%40gmail.com
+    &date=2022-08-11
+    &gender=male
+    &dog=on
+    &cars=ferrari
+
+
+
+
+
+
+  </body>
 </html>
